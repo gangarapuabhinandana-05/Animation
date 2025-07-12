@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>my first website</title>
+    <style>
+        .box{
+            width:20px;
+            height:150px;
+            font-size:100px;
+            text-align:top;
+            background-color:tomato;
+            border:5px solid blueviolet;
+            
+            transform: translateX(30px);
+            transform: translateY(30px);
+            transform: translate3d(30px,30px);
+
+            transform:rotateX(100deg);
+            transform:rotate(100deg);
+            transform:rotateZ(180deg);
+
+            transform:scaleX(3);
+            transform:scaleY(3);
+            transform:scale(2,2);
+
+            transform:skewX(100deg);
+            transform:skewY(100deg);
+            transform:skew(90deg,90deg);
+        }
+        </style>
+</head>
+<body>
+    <img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1xw:0.74975xh;0,0.190xh&resize=1200:*">
+    <div id="box1">HELLO</div>
+</body>
+</html>
